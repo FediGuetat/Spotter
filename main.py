@@ -1,4 +1,4 @@
-"""Pull-up counter.
+"""Spotter: counts pull-ups and checks form.
 
     python main.py                    (webcam)
     python main.py --source clip.mp4 --output result.mp4
@@ -19,7 +19,7 @@ from mediapipe.tasks.python import vision
 from counter import Point, RepCounter, hands_overhead, nearest_pose, pick_athlete, shoulder_center
 
 MODEL = Path(__file__).with_name("pose_landmarker_lite.task")
-WINDOW = "Pull-up counter"
+WINDOW = "Spotter"
 # skip face points (0-10), only draw the body
 BODY = [(c.start, c.end) for c in vision.PoseLandmarksConnections.POSE_LANDMARKS if c.start > 10 and c.end > 10]
 

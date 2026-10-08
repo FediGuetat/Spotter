@@ -1,6 +1,6 @@
-# pullup-counter
+# spotter
 
-counts your pull-ups from a video and tells you what's wrong with your form.
+your spotter at the gym watches your form and counts for you. this does the same from a video. pull-ups for now, push-ups next.
 
 ![demo](resultgif.gif)
 
@@ -8,7 +8,7 @@ counts your pull-ups from a video and tells you what's wrong with your form.
 
 a friend of mine sent me a video of him doing push-ups and asked me to review his form. i watched it like 3 times trying to count the reps and see where he was cheating and thought ok a program could just do this.
 
-so i built it, starting with pull-ups (push-ups are next). it counts the reps, checks every single one, and shows when you start getting tired.
+so i built it, starting with pull-ups. it counts the reps, checks every single one, and shows when you start getting tired. the plan is to cover more exercises over time, push-ups next.
 
 ## what it does
 
